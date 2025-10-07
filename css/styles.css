@@ -1,0 +1,107 @@
+/* File: /css/styles.css
+   Proyecto: Sonar Music — Farruko x Herencia de Timbiquí */
+
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden; /* evita scroll */
+}
+
+/* ===== Fondo adaptable ===== */
+body {
+  position: relative;
+  background-image: url('../img/bg-desktop.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 0;
+}
+
+/* ===== SVG como textura ===== */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('../img/HayQueVolver-01.svg');
+  background-size: 100% auto; /* ocupa 95% del ancho */
+  background-position: top center;
+  background-repeat: repeat-y; /* se repite verticalmente */
+  background-attachment: scroll;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 1;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%); /* corte suave abajo */
+}
+
+/* ===== Carátula ===== */
+.album-cover {
+  position: relative;
+  width: min(80%, 400px);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.album-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* ===== Botón PRE-SAVE ===== */
+.btn-presave {
+  display: inline-block;
+  background-color: #58767C;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  z-index: 2;
+}
+
+.btn-presave:hover {
+  background-color: #6b8d93;
+  transform: scale(1.03);
+}
+
+/* ===== Fondo y textura para dispositivos móviles ===== */
+@media (max-width: 768px) {
+  html, body {
+    overflow: hidden;
+  }
+
+  body {
+    background-image: url('../img/bg-mobile.webp');
+    background-attachment: scroll;
+  }
+
+  body::after {
+    background-image: url('../img/HayQueVolver_Cel-01.svg');
+    background-size: 95% auto;
+    background-repeat: repeat-y;
+  }
+
+  .album-cover {
+    width: 70%;
+  }
+}
