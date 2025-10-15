@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 5rem;
+  gap: 2rem;
   z-index: 0;
 }
 
@@ -103,5 +103,95 @@ body::after {
 
   .album-cover {
     width: 70%;
+  }
+}
+
+
+/* ===== Botones de plataformas ===== */
+.platform-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 45vw;
+  z-index: 2;
+  padding-top: 5vh;
+  justify-content: center;
+  justify-items: center;
+}
+
+.platform-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.5rem;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.platform-buttons a:hover {
+  transform: scale(1.05);
+}
+
+.platform-buttons img {
+  width: 12vw;
+  height: auto;
+  display: block;
+}
+
+/* ===== Escritorio ===== */
+@media (min-width: 769px) {
+  .platform-buttons {
+    grid-template-columns: repeat(3, 1fr);
+    width: 45vw;
+    gap: 1rem;
+    padding-top: 5vh;
+    justify-items: center;
+  }
+
+  /* Si hay un solo botón extra (4 en total), lo centramos */
+  .platform-buttons a:nth-child(4):last-child {
+    grid-column: 2 / span 1;
+  }
+
+  /* Si hay 5 botones, el 4° y 5° se colocan centrados */
+  .platform-buttons a:nth-child(4):nth-last-child(2),
+  .platform-buttons a:nth-child(5):last-child {
+    grid-column: span 1;
+  }
+  .platform-buttons a:nth-child(4):nth-last-child(2) {
+    grid-column: 2 / span 1;
+  }
+  .platform-buttons a:nth-child(5):last-child {
+    grid-column: 3 / span 1;
+  }
+
+  .platform-buttons img {
+    width: 12vw;
+  }
+}
+
+/* ===== Móvil (igual que antes) ===== */
+@media (max-width: 768px) {
+  .platform-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+    gap: 0.1rem;
+    box-sizing: border-box;
+    padding-top: 3vh;
+    justify-items: center;
+  }
+
+  .platform-buttons a {
+    grid-column: auto;
+  }
+
+  .platform-buttons a:nth-child(5) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .platform-buttons img {
+    width: 40vw;
   }
 }
