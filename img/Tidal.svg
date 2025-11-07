@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 285 55" style="enable-background:new 0 0 285 55;" xml:space="preserve">
+	 viewBox="0 0 290 60" style="enable-background:new 0 0 290 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#58767C;}
+	.st0{fill:#222222;}
 	.st1{fill:#EADFCF;}
 </style>
-<path class="st0" d="M257.5,55h-230C12.3,55,0,42.7,0,27.5v0C0,12.3,12.3,0,27.5,0l230,0C272.7,0,285,12.3,285,27.5v0
-	C285,42.7,272.7,55,257.5,55z"/>
 <g>
+	<path class="st0" d="M260.8,57.5H29.2C14.1,57.5,1.8,45.2,1.8,30v0c0-15.2,12.3-27.5,27.5-27.5h231.5c15.2,0,27.5,12.3,27.5,27.5v0
+		C288.3,45.2,275.9,57.5,260.8,57.5z"/>
 	<g>
 		<g>
-			<path class="st1" d="M120.4,38.4H116V22.8h-5.7V19h15.8v3.8h-5.7V38.4z"/>
-			<path class="st1" d="M143.7,38.4h-4.4V19h4.4V38.4z"/>
-			<path class="st1" d="M221.7,34.5h7.6v3.8h-12.1V19h4.4V34.5z"/>
+			<g>
+				<path class="st1" d="M126.4,38.7h-3.5V26.2h-4.5v-3h12.6v3h-4.5V38.7z"/>
+				<path class="st1" d="M145,38.7h-3.5V23.2h3.5V38.7z"/>
+				<path class="st1" d="M207.4,35.6h6.1v3.1h-9.7V23.2h3.5V35.6z"/>
+			</g>
+			<path class="st1" d="M156.7,23.2h5.7c4.2,0,8.4,2.2,8.4,7.7c0,5.1-4.1,7.8-8.2,7.8l-5.9,0V23.2z M160.2,35.7h2.2
+				c3,0,4.9-1.8,4.9-4.8c0-2.8-2-4.7-4.8-4.7h-2.3V35.7z"/>
+			<path class="st1" d="M190.5,38.7h3.9L188,23.2h-3.7l-6.4,15.5h3.8l1.1-3.1h6.5L190.5,38.7z M183.8,32.9l2.3-6.1l2.3,6.1H183.8z"
+				/>
 		</g>
-		<path class="st1" d="M158.4,19h7.2c5.3,0,10.5,2.8,10.5,9.6c0,6.4-5.2,9.7-10.3,9.7l-7.4,0V19z M162.7,34.6h2.7
-			c3.7,0,6.1-2.3,6.1-6c0-3.5-2.5-5.8-6-5.8h-2.8V34.6z"/>
-		<path class="st1" d="M200.6,38.4h4.9l-8-19.4H193l-8.1,19.4h4.7l1.4-3.8h8.2L200.6,38.4z M192.3,31.1l2.9-7.6l2.9,7.6H192.3z"/>
-	</g>
-	<g>
-		<rect x="71.1" y="17.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 6.5721 59.5344)" class="st1" width="8" height="8"/>
-		<rect x="71.1" y="29.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1.4395 62.8531)" class="st1" width="8" height="8"/>
-		<rect x="59.8" y="17.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 3.2527 51.5221)" class="st1" width="8" height="8"/>
-		<rect x="82.5" y="17.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 9.8909 67.5467)" class="st1" width="8" height="8"/>
+		<g>
+			
+				<rect x="86.9" y="22.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.3881 71.1847)" class="st1" width="6.4" height="6.4"/>
+			
+				<rect x="86.9" y="31.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 1.9788 73.8396)" class="st1" width="6.4" height="6.4"/>
+			
+				<rect x="77.8" y="22.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 5.7322 64.7743)" class="st1" width="6.4" height="6.4"/>
+			<rect x="96" y="22.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 11.0434 77.595)" class="st1" width="6.4" height="6.4"/>
+		</g>
 	</g>
 </g>
 </svg>
